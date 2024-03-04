@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Asteroid Field",
+        "options": [
+            {
+                "name": "evade",
+                "consequence": "fuel",
+                "cost": -10
+            },
+            {
+                "name": "fire",
+                "consequence": "health",
+                "cost": -10
+            }
+        ]
+    },
+    {
+        "name": "Space Pirates",
+        "options": [
+            {
+                "name": "evade",
+                "consequence": "fuel",
+                "cost": -20
+            },
+            {
+                "name": "fire",
+                "consequence": "health",
+                "cost": -10
+            }
+        ]
+    },
+    {
+        "name": "Alien Diplomacy",
+        "options": [
+            {
+                "name": "evade",
+                "consequence": "fuel",
+                "cost": -5
+            },
+            {
+                "name": "fire",
+                "consequence": "health",
+                "cost": -10
+            },
+            {
+                "name": "negotiate",
+                "consequence": "credits",
+                "cost": 10
+            }
+        ]
+    },
+    {
+        "name": "Black Hole",
+        "options": [
+            {
+                "name": "evade",
+                "consequence": "fuel",
+                "cost": -10
+            },
+            {
+                "name": "enter",
+                "consequence": "health",
+                "cost": -100
+            }
+        ]
+    }
+]

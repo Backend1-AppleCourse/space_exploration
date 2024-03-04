@@ -1,0 +1,51 @@
+space exploration
+Topics:
+● functions
+● modules
+Task description:
+● Embark on a space adventure, navigating a spacecraft
+through cosmic challenges.
+Requirements:
+Modules and Packages:
+● Utilize the following modules/packages in your game:
+● random: For generating random events.
+● time: For simulating time delays in the game.
+● math: For calculations (e.g., fuel efficiency).
+● json: For saving and loading game data.
+● requests: For making HTTP requests (simulated for
+fetching galactic weather). use a weather api. you
+can use other types of api if you want.
+Object-Oriented Programming (OOP):
+● Implement a class named Spaceship to represent the
+player's spacecraft. Include attributes such as name,
+fuel, and health.
+● Ensure the Spaceship class has a __str__ method to
+provide a string representation.
+Game Logic:
+● Implement a space exploration game where the player
+controls a spaceship.
+● Include random events such as "Asteroid Field," "Space
+Pirates," "Alien Diplomacy," and "Black Hole."
+Functions:
+● Create functions for different tasks, such as launching
+the spacecraft, exploring the galaxy, and handling space
+events.
+● Encapsulate specific functionalities within functions to
+maintain a modular code structure.
+Conditions and Decision-Making:
+● Use conditional statements to handle different scenarios
+during the game.
+● Implement decision-making logic based on random
+events, player choices, or external factors.
+● for example: if you are encountering an asteroid field,
+you can evade or fire at the asteroids. make each
+decision have consequences.
+External Data Interaction:
+● Simulate interaction with an external API using the
+requests package. Fetch information like the current
+weather in a distant galaxy.
+Persistence:
+● Implement a mechanism for saving and loading game
+data using the json module.
+● Save essential information such as the spaceship's
+name, fuel, and health.
